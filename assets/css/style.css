@@ -27,7 +27,7 @@
     height: auto;
     border: 2px inset #8f2f2f;
     border-radius: 24px;
-    background-color: #1f2f3f;
+    background-color: #1f2b1f;
     }
 
 .band-logo{
@@ -74,6 +74,8 @@
     text-shadow: 2px 2px 8px #FF0000;
     color: #2f2f2f
 }
+
+
 
 /*-------------------------------------------------------Section/General*/
 
@@ -148,13 +150,13 @@ footer{
 /*-------------------------------------------------------Tour*/
 
 .tour-container{
-    margin: 96px auto;
+    margin: 72px auto 12px;
     border: 4px ridge cadetblue;
     border-radius: 8px 72px;
     padding: 0;
     width: 66%;
     height: 320px;
-  
+    position: relative;
 }
 
 .tour-container>img{
@@ -168,19 +170,16 @@ footer{
 
 .tour-heading{
     position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    left: 10%;
+    top: 25%;
+    width: 80%;
     font-family: Anton;
-    font-size: 72px;
-    font-weight: 600px;
+    text-align: center;
     color: #f2f2f2;
     background-color: rgba(50, 50, 50, .8);
     border-radius: 4px 36px;
     border: 2px ridge #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     }
 
 .tour-heading:hover{
@@ -188,6 +187,21 @@ footer{
     transition: ease-in-out 1s; 
     }
 
+.event-list-container{
+    background-color: rgba(180, 180, 180, .7);
+    border: 4px ridge #2f2f2f;
+    border-radius: 32px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.event-container{
+    background-color: #8f2f2f;
+    border-radius: 8px;
+    border: 4px outset #f2f2f2;
+    text-align: center;
+    margin: 10px
+}
 
     
 
