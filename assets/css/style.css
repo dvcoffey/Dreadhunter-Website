@@ -31,6 +31,7 @@
     }
 
 .band-logo{
+    border-radius: 24px;
     max-height: 48px;
     max-width: 100%;
     padding: 0;
@@ -80,7 +81,7 @@
 /*-------------------------------------------------------Section/General*/
 
 .nav-padding{
-    min-height: 16px;
+    min-height: 24px;
     background-color:rgba(50, 50, 50, 1);
 }
 
@@ -188,24 +189,22 @@ footer{
     }
 
 .event-list-container{
-    background-color: rgba(180, 180, 180, .7);
-    border: 4px ridge #2f2f2f;
-    border-radius: 32px;
-    margin: 10px;
-    padding: 10px;
-}
+    background-color: rgba(141, 18, 18, 0.3);
+    border-top: 4px inset #2f2f2f;
+    margin: 0;
+    padding: 12;
+    min-width: 100%
+    }
 
-.event-container{
+.tour-link{
+    margin: 12px 0;
     background-color: #8f2f2f;
     border-radius: 8px;
     border: 4px outset #f2f2f2;
     text-align: center;
-    margin: 10px
-}
-
-    
-
-
+    font-family: Oswald, sans-serif;
+    color: #f2f2f2;
+    }
 
 /*-------------------------------------------------------Media*/
 
@@ -214,14 +213,43 @@ footer{
     width: 50%;
     border: 3px solid red;
     padding: 10px;
-}
-
-
+    }
 
 /*-------------------------------------------------------Fanclub*/
+
+.fanclub-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
 
 #fanclub-image{
     width: 100%;
     height: auto;
+    }
+
+.join-container{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 80%;
+    font-family: Anton;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: rgba(50, 50, 50, .8);
+    border-radius: 4px 36px;
+    border: 2px ridge #f2f2f2;
+    padding: 10px;
+    }
+
+.reasons-to-join{
+    font-family: Oswald, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #8f2f2f
 }
+
+
+
+
     
