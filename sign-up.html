@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Dreadhunter</title>
 </head>
+
 <body>
 <header class="fixed-top">
         <nav class="container-fluid navbar navbar-expand-sm row no-gutters">
-            <a class="container-fluid navbar-brand col-sm-6 col-md-4" href="index.html"><img class="band-logo" src="assets/images/dreadhunter-logo.jpg" alt="dreadhunter"></a>
+            <a class="container-fluid navbar-brand col-sm-6 col-md-4" href="index.html"><img class="band-logo" src="assets/images/dreadhunter-logo.png" alt="dreadhunter"></a>
             
             <button class="container-fluid navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="container-fluid navbar-toggler-icon"></span>
@@ -44,7 +45,50 @@
             </div>
         </nav>
     </header>
-    
+
+    <section>
+        <div class="sign-up-bg">
+            <div class="row no-gutters">
+                <div class="nav-padding col-sm-6"></div>
+                <div class="nav-padding col-sm-6"></div>
+                <div class="nav-padding col-sm-6"></div>
+                <div class="nav-padding col-sm-6"></div>
+            </div>
+        
+            <div class="container sign-up-container">
+                <img class="sign-up-image" src="assets/images/sign-up.jpg" alt="An abstract red frame.">
+                <div class="sign-up-form">
+                    <h1>Darkness beckons.</h1>
+                    
+                    <form action="/action_page.php">
+                        <label for="fname"><h2>thy Name:</h2></label><br>
+                        <input type="text" id="fname" name="fname" value="Klarg"><br>
+                            
+                        <label for="lname"><h2>thy Purpose:</h2></label><br>
+                        <input type="text" id="lname" name="lname" value="Doomseeker"><br>
+                            
+                        <label for="class"><h2>thy Class:</h2></label><br>
+                            <input type="radio" id="barbarian" name="class" value="barbarian">
+                            <label for="barbarian"><p>Barbarian</p></label><br>
+                                
+                            <input type="radio" id="wizard" name="class" value="wizard">
+                            <label for="wizard"><p>Wizard</p></label><br>
+                                
+                            <input type="radio" id="lawyer" name="class" value="lawyer">
+                            <label for="lawyer"><p>Lawyer</p></label>
+                        
+                    <h2>The legion await your decision...</h2>
+                        
+                        <input type="button" value="Accede" >
+                       
+                     
+                            <input type="reset" value="Remain">
+                        
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
