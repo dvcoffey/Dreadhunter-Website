@@ -10,44 +10,41 @@
     margin: 0;
     padding: 0;
     background-color:rgba(50, 50, 50, .97);
-    height: 24px;
-    
-}
-
-#collapsibleNavbar{
-    margin: 24px 1% 0;
-    padding: 0 12px;
+    height: 32px;
+    min-width: 100%;
+    border-bottom: 2px inset #8f2f2f;
 }
 
 .navbar-brand{
-    margin: 24px 1% 0;
-    padding: 3px;
-    width: 100%;
-    height: auto;
-    border: 2px inset #8f2f2f;
-    border-radius: 24px;
-    background-color: #3a3a3a;
+    padding: 6px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .band-logo{
-   
-    max-height: 40px;
-    max-width: 1000%;
-    padding: 0;
-    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 48px;
+    width: 90%;
+    border: 2px ridge #5a5656;
+    padding: 2px;
+    border-radius: 20px;
+    object-fit: contain;
+    background-color: #cd0000eb;
 }
 
 .navbar-toggler{
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-
+    position: relative;
+    width: 100%;
+    margin-top: 44px;
 }
 
 .navbar-toggler-icon {
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0;
     border: 2px outset #f2f2f2;
-    border-radius: 16px;
+    border-radius: 12px;
     color: #2f2f2f;
     background-color: #8f2f2f;
     height: 24px;
@@ -55,15 +52,30 @@
 }
 
 .navbar-nav{
-    margin: 8px auto;
-    padding: 8px 8px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#collapsibleNavbar{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    position: relative;
 }
 
 .nav-link{
-    margin: 3px 24px;
-    padding: 4px 24px;
+   
+    width: 96px;
+    margin: 24px auto 0;
+    height: 40px;
     font-family: Anton, sans-serif;
-    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 0 #b01e1e;
+    font-size: 16px;
     color: #e2e2f3 ;
     text-align: center;
     border: 2px outset #8f2f2f;
@@ -71,27 +83,89 @@
     background-color: #3f3f3f
 }
 
-.nav-link:hover{
-    text-shadow: 2px 2px 8px #FF0000;
-    color: #2d2d2d;
-}
-
-.nav-link:active{
-    text-shadow: 2px 2px 8px #FF0000;
-    color: #2f2f2f
-}
-
-/*-------------------------------------------------------section/general*/
-
 .nav-padding{
     min-height: 48px;
     margin: 0;
 }
 
-.nav-padding-home{
-    min-height: 48px;
-    background-color: #4a4a4a
+.close{
+    background-color:rgba(50, 50, 50, .97) 
 }
+/*-------------------------------------------------------nav-breakpoints*/
+
+@media (min-width: 576px) {
+    
+    .nav-home {
+        position: absolute;
+        top: 12px;
+        right: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .nav-home {
+        position: static;
+        margin-top: 24px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .nav-tour {
+        position: absolute;
+        top: 60px;
+        right: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .nav-tour {
+        position: static;
+        margin-top: 24px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .nav-media {
+        position: absolute;
+        top: 108px;
+        right: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .nav-media {
+        position: static;
+        margin-top: 24px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .nav-fanclub {
+        position: absolute;
+        top: 156px;
+        right: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .nav-fanclub {
+        position: static;
+        margin-top: 24px;
+        padding-bottom: 12px;
+    }
+}
+
+/*-------------------------------------------------------section/general*/
 
 section{
     margin: 0;
@@ -105,6 +179,11 @@ section{
     top: 0;
     object-fit: cover;
     z-index: -1;
+}
+
+.transparent-padding{
+    min-height: 48px;
+    min-width: 100%;
 }
 
 /*-------------------------------------------------------footer*/
@@ -168,7 +247,7 @@ section{
 
 .youtube a{
     color: rgb(212, 41, 41);
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 0px;
     padding: 0px 15% 0px ;
     line-height: 32px;
@@ -184,7 +263,7 @@ section{
 
 .facebook a{
     color: rgb(67, 100, 198);
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 0px;
     padding: 0px 15% 0px ;
     line-height: 32px;
@@ -201,7 +280,7 @@ section{
 
 .twitter a{
     color: rgb(117, 197, 229);
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 0px;
     padding: 0px 15% 0px ;
     line-height: 32px;
@@ -256,7 +335,6 @@ section{
     border-top: 6px ridge red;
     position: relative;
     text-align: center;
-    
 }
 
 .sticky {
@@ -270,10 +348,10 @@ section{
     color: #f2f2f2;
     text-align: center;
     font-family: Oswald, sans-serif;
+    line-height: 16px;
     text-transform: uppercase;
-    border-bottom: 1px solid #f2f2f2
+    border-bottom: 1px solid #f2f2f2;
 }
-
 
 iframe{
     display: block;
@@ -287,14 +365,10 @@ iframe{
     color: #f2f2f2
 }
 
-
-
-
 /*-------------------------------------------------------Tour*/
 
-
 .tour-heading{
-    margin: 180px auto 60px;
+    margin: 140px auto 60px;
     width: 66.66%;
     font-family: Metal Mania, sans-serif;
     text-transform: uppercase;
@@ -309,7 +383,7 @@ iframe{
 }
 
 .event-list-container{
-    margin: 60px auto 0;
+    margin: 48px auto 0;
     width: 80%;
     padding: 0;
     position: relative;
@@ -362,7 +436,6 @@ iframe{
     margin: 0 5%;
     height: 90%;
     width: 90%;
-
 }
 
 .tour-link h4{
@@ -371,7 +444,6 @@ iframe{
     text-transform: uppercase;
     text-decoration: underline;
     height: 18%;
-    
 }
 
 .tour-link h5{
@@ -379,7 +451,6 @@ iframe{
     text-shadow: 0px 1px 0px  #be1561ca;
     text-decoration: underline;
     height: 18%;
-    
 }
 
 .tour-link p{
@@ -389,10 +460,6 @@ iframe{
     border-radius: 36px;
     background-color: #2d2d2d76;
     text-transform: uppercase;
-    
-    
-    
-    
 }
 
 /*-------------------------------------------------------Media*/
@@ -424,7 +491,8 @@ iframe{
     padding: 5% auto;
     font-size: 4vw;
     text-align: center; 
-    font-family: Anton, sans-serif;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
 }
 
 .media-outer-text h4{
@@ -436,12 +504,15 @@ iframe{
 .media-outer-text p{
     margin: 5% auto;
     font-size: 2.5vw;
-    font-family: Oswald, sans-serif; 
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500; 
+    text-align: center;
 }
 
 .media-step{
     position: absolute;
-    top: 63%;
+    top: 60%;
 }
 
 .media-inner-container{
@@ -455,16 +526,20 @@ iframe{
     border: 2px ridge #d2d2d2;
 }
 
-.media-inner-text{
+.media-inner-text p{
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -100%);
-    background-color:rgba(50, 50, 50, .8);
-    border: 2px ridge #f2f2f2;
+    background-color:#007d909b;
     color: #f2f2f2;
-    padding: 0 10px;
+    text-shadow: 0 2px 0 rgba(255, 0, 0, 0.916);
+    font-family: Metal Mania, sans-serif;
+    padding: 0 12%;
+    border: 2px ridge #7c6a6a;
+    border-radius: 48px 48px 4px 48px;
     font-size: 3vw;
+    text-align: center;
 }
 
 /*-------------------------------------------------------Fanclub*/
@@ -485,7 +560,7 @@ iframe{
 .join-container{
     position: absolute;
     left: 12.5%;
-    top: 40%;
+    top: 32%;
     width: 75%;
     font-family: Anton, sans-serif;
     text-align: center;
@@ -494,6 +569,17 @@ iframe{
     border-radius: 4px 36px;
     border: 2px ridge #f2f2f2;
     padding: 40px;
+}
+
+.join-container>button{
+
+    font-family: Anton, sans-serif;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #8f2f2f;
+    border-radius: 4px 36px;
+    border: 2px ridge #f2f2f2;
+    padding: auto;
 }
 
 .reasons-to-join{
@@ -569,26 +655,25 @@ iframe{
 
 /*-------------------------------------------------------sign-up*/
 
-.sign-up-bg{
-    width: 100%;
-    background-color: #000000;
-}
-
-.sign-up-container{
-    width: 88%;
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-}
-
 .sign-up-image{
-    width: 100%;
-    margin: 0 auto;
+    background-image: url('../images/sign-up.jpg');
+    background-size: cover;
+    height: 100vh;
+    
+  
+ 
 }
+
+
+
+
+   
+  
+
 
 .sign-up-form{
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 12%;
     width: 76%;
     text-align: center;
@@ -602,7 +687,12 @@ iframe{
 }
 
 .sign-up-form h2{
+    margin:40px auto;
     padding: 2% 0;
+}
+
+.signup-form input{
+    margin: 20px auto;
 }
 
 .sign-up-form button{
