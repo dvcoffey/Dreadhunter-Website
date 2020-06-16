@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <title>The Dreadhunter Official Website</title>
+    <title>Dreadhunter</title>
 </head>
 
 <body>
@@ -47,39 +47,79 @@
     </header>
     
     <section>
-        <div class="container hero-container">
-            <img id="hero-image" src="assets/images/hero-image.jpg" alt="Heavy metal band playing">
-            <div class="hero-text-container">
-                <h6>
-                    "Completely unstoppable<br/>
-                     Entirely unmissable<br/>
-                     Totally brutal!",<br/>
-                </h6>
-                <p>-Meathead Magazine.</p>
-            </div> 
+        <img  class="bg-fire" src="assets/images/bg-fire.jpg" alt="A wall of fire.">
+        <div class="container fanclub-container">
+            <img id="fanclub-image" src="assets/images/fanclub.jpg" alt="Dark photo of a crowd">
+            <div class="join-container">
+                <div class="join-heading">
+                    <h3>The Dreadhunter Fanclub</h3>
+                    <p>Become one with the void.</p>
+                </div>
+                
+                <a class="sign-up-link" href="sign-up.html" target="_blank">
+                    <button type="submit">Sign up</button>
+                </a>
+                
+                <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">
+                    Members Login
+                </button>
+           </div>
         </div>
         
-        <div class="newsfeed-container container-fluid">
-            <h2 class="newsfeed-heading">Band history</h2>
-            <p class="newsfeed-text">
-                Three extra shows have been added to our Extreme Headbanger World Tour.<br/>
-                <a href="tour.html" class="home-tour-link">Click here to view</a>  
-            </p>
+        <div class="reasons-to-join">
+            <h2>Why join the fanclub?</h2>
+                <ol>
+                    <li>Ticket presales for all headline shows</li>
+                    <li>Discount on VIP packages</li>
+                    <li>Ticket presales for all headline shows</li>
+                    <li>Member discount on dreadhunter merch store</li>
+                    <li>Access to exclusive items on dreadhunter merch store</li>
+                    <li>monthly draw to win dreadhunter goodies</li>
+                    <li>Access to our fanclub forum</li>
+                    <li>Membership pack for new members including signed blood chalice</li>
+                </ol>
         </div>
         
-        <p class="sticky">New tour dates added</p>
-             
-        <div class="newsfeed-container">
-            <h2 class="newsfeed-heading">New Single</h2>
-            <p class="newsfeed-text">The new single is out now</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FYmjARBLve4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> 
+        
+       <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="container modal-dialog modal-dialog-centered">
+                <img class="modal-image" src="assets/images/log-in.jpg" alt="A demonic face">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Return to the fold</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <form action="/action_page.php" class="container"> 
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required><br/>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required><br/>
+                            
+                            <a href="index.html" type="button" class="btn">Login</a>
+                        </form>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        Don't have an account?
+                        <a href="sign-up.html" target="_blank" class="btn">Sign up</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>    
+     <footer>    
         <div class="container footer-container fixed-bottom">
-            <ul class="list-inline row no-gutters">
-                <li class="list-inline-item youtube col-4">
+            
+                <ul class="list-inline row no-gutters">
+                    
+            
+                    <li class="list-inline-item youtube col-4">
                         <a href="https://www.youtube.com/" target="_blank">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube.</span>
@@ -103,12 +143,16 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            
+        </div>
     </footer>
-        
+
+
+
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
 </body>
 </html>
 
