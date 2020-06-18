@@ -9,29 +9,28 @@
 .navbar{
     margin: 0;
     padding: 0;
-    background-color:rgba(50, 50, 50, .97);
-    height: 32px;
+    background-color: #2f2f2f;
+    height: 48px;
     min-width: 100%;
-    border-bottom: 2px inset #8f2f2f;
 }
 
 .navbar-brand{
-    padding: 6px;
-    margin: 0 auto;
+    
+    text-align: center;
+    padding: 24px auto;
+ 
     position: relative;
 }
 
 .band-logo{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    height: 48px;
-    width: 90%;
-    border: 2px ridge #5a5656;
+    height: 44px;
+    
+   
     padding: 2px;
-    border-radius: 20px;
+    
+    border-radius: 4px 16px;
     object-fit: contain;
-    background-color: #cd0000eb;
+  
 }
 
 .navbar-toggler{
@@ -46,164 +45,67 @@
     border: 2px outset #f2f2f2;
     border-radius: 12px;
     color: #2f2f2f;
-    background-color: #8f2f2f;
+    background-color: #f2f2f2;
     height: 24px;
     width: 24px;
 }
 
-.navbar-nav{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
 
 #collapsibleNavbar{
     margin: 0;
     padding: 0;
 }
 
-.nav-item{
-    position: relative;
+.navbar-nav{
+    width: 100%;
+    margin: 0 auto;
 }
+
 
 .nav-link{
    
-    width: 96px;
-    margin: 24px auto 0;
-    height: 40px;
+    width: 66%;
+    margin: 0 auto;
+    padding: 0;
+    height: 32px;
     font-family: Anton, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 0 3px 0 #b01e1e;
+    text-shadow: 0 1px 0 #8f2f2f;
     font-size: 16px;
-    color: #e2e2f3 ;
+    color: #2f2f2f ;
     text-align: center;
-    border: 2px outset #8f2f2f;
+    border: 2px outset #f2f2f2;
     border-radius: 4px 16px;
-    background-color: #3f3f3f
+    background-color: #d3d3d3;
 }
 
-.nav-padding{
-    min-height: 48px;
-    margin: 0;
-}
-
-.close{
-    background-color:rgba(50, 50, 50, .97) 
-}
-/*-------------------------------------------------------nav-breakpoints*/
-
-@media (min-width: 576px) {
-    
-    .nav-home {
-        position: absolute;
-        top: 12px;
-        right: 6px;
-    }
-}
-
-@media (min-width: 768px) {
-    
-    .nav-home {
-        position: static;
-        margin-top: 24px;
-        padding-bottom: 12px;
-    }
-}
-
-@media (min-width: 576px) {
-    
-    .nav-tour {
-        position: absolute;
-        top: 60px;
-        right: 6px;
-    }
-}
-
-@media (min-width: 768px) {
-    
-    .nav-tour {
-        position: static;
-        margin-top: 24px;
-        padding-bottom: 12px;
-    }
-}
-
-@media (min-width: 576px) {
-    
-    .nav-media {
-        position: absolute;
-        top: 108px;
-        right: 6px;
-    }
-}
-
-@media (min-width: 768px) {
-    
-    .nav-media {
-        position: static;
-        margin-top: 24px;
-        padding-bottom: 12px;
-    }
-}
-
-@media (min-width: 576px) {
-    
-    .nav-fanclub {
-        position: absolute;
-        top: 156px;
-        right: 6px;
-    }
-}
-
-@media (min-width: 768px) {
-    
-    .nav-fanclub {
-        position: static;
-        margin-top: 24px;
-        padding-bottom: 12px;
-    }
-}
 
 /*-------------------------------------------------------section/general*/
 
 section{
     margin: 0;
     padding: 0;
-}
-
-.bg-fire{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.transparent-padding{
-    min-height: 48px;
-    min-width: 100%;
+   
 }
 
 /*-------------------------------------------------------footer*/
 
-.fixed-bottom{
-    background-color:rgba(50, 50, 50, .97);
-}
-.footer-container{
-    max-width: 100%;
+footer{
+    width: 100%;
     height: 36px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin: 0px;
+    padding: 0px;
     color: #f2f2f2;
+    background-color: #2f2f2f;
 }
 
 .footer-container>ul{
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 0px;
     position: relative;
 }
+
 .footer-container>li{
     margin-top: 0px;
     padding-top: 0px;
@@ -219,8 +121,8 @@ section{
 
 .copyright-text{
     position: absolute;
-    right: 0;
-    top:-8px;
+    right: 0px;
+    bottom: 0px;
     font-size: 8px;
     color: rgba(117, 114, 114, 0.8);
     padding: 1px;
@@ -320,37 +222,21 @@ section{
 .newsfeed-container h2{
     text-shadow: 2px 2px 2px #63c5c5c7;
     font-family: Anton, sans-serif;
-    color: #f2f2f2;
+    color: #2f2f2f;
 }
 
 .newsfeed-container p{
     font-family: Metal Mania;
-    color: #be0000;
+    color: #000000;
 }
  
 .newsfeed-container{
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #000000;
-    border-top: 6px ridge red;
+    background-color: #f2f2f2;
+    
     position: relative;
     text-align: center;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 36px;
-    right: 32px;
-    margin:0;
-    padding:0;
-    background-color:rgba(50, 50, 50, .97);
-    color: #f2f2f2;
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    line-height: 16px;
-    text-transform: uppercase;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 iframe{
@@ -361,86 +247,41 @@ iframe{
     border: 4px ridge #8f2f2f;
 }
 
-.home-tour-link{
-    color: #f2f2f2
-}
 
 /*-------------------------------------------------------Tour*/
 
 .tour-heading{
-    margin: 140px auto 60px;
-    width: 66.66%;
-    font-family: Metal Mania, sans-serif;
+    font-family: Anton, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    color: #3e34c1;
-    text-shadow: 0px 1px 0px  #cb3018e2;
-    text-decoration: 1px underline ;
-    border: 2px inset #8f2f2f;
-    border-radius: 24px;
-    background-color: #2d2d2d76;
+    
+    margin: 10%;
 }
 
-.event-list-container{
-    margin: 48px auto 0;
-    width: 80%;
-    padding: 0;
-    position: relative;
-    height: 480px;
-}
-
-#event-list-image{
-    height: 560px;
-    width: 100%;
-    opacity: 60%;
-    object-fit: cover;
-    border-radius: 24px 24px 36px 36px;
-    border: 2px inset #8f2f2f;
-}
-
-.event-list-heading{
-    margin: 6px 6%;
-    padding: 24px;
-    width: 88%;
-    font-family: Anton, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ae1e1e;
-    text-shadow: 0px 1px 0px  #f3391cca;
-    border-radius: 24px;
-    background-color: #232323ce;
-    border: 2px outset #8f2f2f;
-    letter-spacing: 1px;
-    position: absolute;
-    top: 48px;
-}
 
 .event-list{
-    position: absolute;
-    text-align: center;
-    margin: 60px auto;
-    top: 35%;
-    width: 100%
-}
-
-.event-list a{
-    font-family: Oswald, sans-serif;
-    color: #f2f2f2;
+    margin-bottom: 5%;
+    
+  
 }
 
 .tour-link{
-    background-color: #471800df;
+    background-color: #2f2f2f;
     border-radius: 0px 0px 36px 36px;
-    border: 2px ridge #8f2f2f;
-    margin: 0 5%;
-    height: 90%;
+    border: 2px outset #007373;
+    
+    font-family: Oswald, sans-serif;
+    color: #f2f2f2;
+    
     width: 90%;
+    margin: 5%;
+    text-align: center;
 }
 
 .tour-link h4{
-    color: #ae1e1e;
-    text-shadow: 0px 1px 0px  #f3391cca;
+    
+    text-shadow: 0px 1px 0px  #000000;
     text-transform: uppercase;
     text-decoration: underline;
     height: 18%;
@@ -448,124 +289,56 @@ iframe{
 
 .tour-link h5{
     color: #007373;
-    text-shadow: 0px 1px 0px  #be1561ca;
+    text-shadow: 0px 1px 0px  #2f2f2f;
     text-decoration: underline;
     height: 18%;
 }
 
 .tour-link p{
-    text-shadow: 0px 1px 0px  #cb3018e2;
     text-decoration: 1px underline ;
     border: 2px outset #007373;
     border-radius: 36px;
-    background-color: #2d2d2d76;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 /*-------------------------------------------------------Media*/
 
-.media-outer-container{
-    padding: 4% 0;
-    width: 75%;
-    position: relative;
-}
-
-.media-outer-image{
-    width: 100%;
-    object-fit: cover;
-    border: 3px ridge #f2f2f2
-}
-
-.media-outer-text{
-    width: 75%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: #f2f2f2;
-}
-
-.media-outer-text h3{
-    margin: 5% auto;
-    padding: 5% auto;
-    font-size: 4vw;
-    text-align: center; 
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-}
-
-.media-outer-text h4{
-    font-size: 2.5vw; 
+.media-container{
+    background-color: #2f2f2f;
+    text-align: center;
     font-family: Anton, sans-serif;
-    text-align: center;
-}
-
-.media-outer-text p{
-    margin: 5% auto;
-    font-size: 2.5vw;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500; 
-    text-align: center;
-}
-
-.media-step{
-    position: absolute;
-    top: 60%;
-}
-
-.media-inner-container{
-    width: 80%;
-    position: relative;
-}
-
-.media-inner-image{
-    width: 100%;
-    border-radius: 5% 5%;
-    border: 2px ridge #d2d2d2;
-}
-
-.media-inner-text p{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    background-color:#007d909b;
     color: #f2f2f2;
-    text-shadow: 0 2px 0 rgba(255, 0, 0, 0.916);
-    font-family: Metal Mania, sans-serif;
-    padding: 0 12%;
-    border: 2px ridge #7c6a6a;
-    border-radius: 48px 48px 4px 48px;
-    font-size: 3vw;
+    max-width: 95%;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+
+.media-image{
+    padding: auto;
+    background-color: #2f2f2f;
+}
+
+.media-text{
+    background-color: #f2f2f2;
+    font-family: Oswald, sans sans-serif;
+    color: #2f2f2f;
     text-align: center;
 }
 
 /*-------------------------------------------------------Fanclub*/
 
-.fanclub-container{
-    min-width: 100%;
-    height: 480px;
-    padding: 0;
-    position: relative;
-}
 
-#fanclub-image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover
-}
+
+
 
 .join-container{
-    position: absolute;
-    left: 12.5%;
-    top: 32%;
-    width: 75%;
+    width: 66%;
+    margin: 48px 17%;
     font-family: Anton, sans-serif;
     text-align: center;
     color: #f2f2f2;
-    background-color: rgba(50, 50, 50, .8);
+    background-color: #2f2f2f;
     border-radius: 4px 36px;
     border: 2px ridge #f2f2f2;
     padding: 40px;
@@ -573,20 +346,23 @@ iframe{
 
 .join-container>button{
 
+     height: 32px;
     font-family: Anton, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #2f2f2f ;
     text-align: center;
-    color: #f2f2f2;
-    background-color: #8f2f2f;
-    border-radius: 4px 36px;
-    border: 2px ridge #f2f2f2;
-    padding: auto;
+    border: 2px outset #f2f2f2;
+    border-radius: 4px 16px;
+    background-color: #d3d3d3;
 }
 
 .reasons-to-join{
     font-family: Oswald, sans-serif;
-    color: #f2f2f2;
+    color: #2f2f2f;
     text-align: center;
-    background-color: #8f2f2f;
+    background-color: #f2f2f2;
     padding: 20px 10px;
 }
 
