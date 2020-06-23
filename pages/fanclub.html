@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md row no-gutters">
+        <nav class="navbar navbar-expand-md row no-gutters fixed-top">
             <a class="navbar-brand col-md-4" href="../index.html">
                 <img class="band-logo" src="../assets/images/dreadhunter-logo.png" alt="dreadhunter">
             </a>
@@ -49,59 +49,53 @@
     </header>
 
     <section>
-       
-            <div class="reasons-to-join">
-                <h2>Why join the fanclub?</h2>
-                <ol>
-                    <li>Ticket presales for all headline shows</li>
-                    <li>Discount on VIP packages</li>
-                    <li>Ticket presales for all headline shows</li>
-                    <li>Member discount on dreadhunter merch store</li>
-                    <li>Access to exclusive items on dreadhunter merch store</li>
-                    <li>monthly draw to win dreadhunter goodies</li>
-                    <li>Access to our fanclub forum</li>
-                    <li>Membership pack for new members including signed blood chalice</li>
-                </ol>
+        <div class="container-fluid nav-padding">
+        </div> 
+        <div class="reasons-to-join">
+            <h2>Why join the Fanclub?</h2>
+            <ol>
+                <li>Ticket presales for all headline shows</li>
+                <li>Discount on VIP packages</li>
+                <li>Ticket presales for all headline shows</li>
+                <li>Member discount on dreadhunter merch store</li>
+                <li>Access to exclusive items on dreadhunter merch store</li>
+                <li>Monthly draw to win dreadhunter goodies</li>
+                <li>Access to our fanclub forum</li>
+                <li>Membership pack for new members including signed blood chalice</li>
+            </ol>
+        </div>
+        <div class="join-container">
+            <div class="join-heading">
+                <h3>The Dreadhunter Fanclub</h3>
+                <p>Become one with the void.</p>
             </div>
-            <div class="join-container">
-                <div class="join-heading">
-                    <h3>The Dreadhunter Fanclub</h3>
-                    <p>Become one with the void.</p>
-                </div>
-                <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">
-                    Members Login
-                </button>
-           </div>
-        
+            <button type="button" class="btn" data-toggle="modal" data-target="#loginModal">
+                Members Login
+            </button>
+        </div>
         
         <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="container modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="loginModalLabel">Return to the fold</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close dismiss-btn" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    
+
                     <div class="modal-body">
                         <form action="/action_page.php" class="container"> 
-                            
-                            <input type="text" placeholder="Enter Email" name="email" required><br/>
-
-                           
-                            <input type="password" placeholder="Enter Password" name="psw" required><br/>
-                            
-                            <a href="index.html" type="button" class="btn">Login</a>
+                            <input type="text" placeholder="Enter Email" name="email"><br/>
+                            <input type="password" placeholder="Enter Password" name="password"><br/>
+                            <a href="../index.html" type="button" class="btn">Login</a>
                         </form>
                     </div>
-                    
-                  
-                    
                 </div>
             </div>
         </div>
     </section>
+
     <footer>    
         <div class="container footer-container">
             <ul class="list-inline row no-gutters">
@@ -131,10 +125,7 @@
                 </ul>
             </div>
     </footer>
-
-
-
-   
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
