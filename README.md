@@ -1,95 +1,67 @@
-The Dreadhunter Website
+#The Dreadhunter Website
 
-                One or two paragraphs providing an overview of your project.
-UX
+
+##UX
 
 Who this website is designed for.
 -1 fans
 -2 potential fans
 
-Fans who want further ways to interact with the band can do so ny joining the fanclub
-fans can listen to the music, check for upcoming tour dates and check for new releases
+Fans who want further ways to interact with the band can do so by joining the fanclub
+Fans can listen to the music, check for upcoming tour dates and check for new releases
 
-potential fans are greeted with the homepage image to confirm they are in the right place, can listen to the material and gain a feel for the bands presenece.
-
+Potential fans are greeted with the homepage image to confirm they are in the right place, can listen to the material and gain a feel for the bands presenece.
+Existing fans can check for new releases on the homepage, check for upcoming tour dates on the tour page, listen to the media and join the fanclub if they have not done so already.
 ![Homepage](/assets/images/wireframes/homepage.png)
 ![Tourpage](/assets/images/wireframes/tourpage.png)
 ![Mediapage](/assets/images/wireframes/mediapage.png)
 ![Fanclubpage](/assets/images/wireframes/fanclubpage.png)
+
+##Features
+
+Feature 1 The navbar exists across all pages, fixed to the top, it does not take up a large amount of space and provides the user with an obvious link to any page on the site.
+Feature 2 The footer also exists on all pages if the user scrolls to the bottom. The footer provides the links to whichever social media platforms the band are present on.
+Feature 3 The Homepage update section. Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
+Feature 4 The Tour page occupies a bootstrap grid which will scale across all devices. This section allows the user to scroll through the upcoming concerts. If a concert div is clicked on, the user will be brought to the ticketmaster website in a new page.
+Feature 5 The Media page allows users to listen to or watch the band's releases. Currently these exist as links to youtube which open in a new page, however these can also be embedded to keep the user on site.
+Feature 6 The fanclub. The fanclub page allows the user to gain access to the band's fanclub. When the members login button is clicked, a modal will appear allowing the user to input their email address and password. Currently this feature will redirect the user back to the homepage. In the future this could bring th user back to the homepage with the added features of being signed in.
+
+##Future ideas
+
+A merchandise store, which could be a link to an external site (the band's merch store provider for instance). It could also exist as a page on the site accessible through the navbar.
+A sign up page. On the fanclub page there should be a sign up button on the fanclub page, which will redirect the user to a new window where they can input all the relevant information to become a member. This was partially implemented in the early stages of the project but was later removed to keep things tidy. There is also no data manipulation at this point so it would serve little purpose.
                 
-                
-                Essentially, this part is your sales pitch.
-                UX
+##Technologies used
 
-                Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This site is constructed primarily in HTML and CSS. 
+Bootstrap 4 is utilized along with bootstrap CSS and JQuery
+Font awesome is used to provide the icons for the navbar button and the social media links.
+Google fonts is used to provide the Anton and Oswald fonts that are present across the site.
 
-                In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+##Testing
 
-                    As a user type, I want to perform an action, so that I can achieve a goal.
+This site was tested on gitpod during the early stages of construction. The port was open in a separate window and as changes were made they were checked at different screen sizes using the element inspector in the browser. This was done in both chrome and firefox.
+Later on the site was deployed to Github pages which can be done in the settings section of the Github repsitory.
+At this stage the site was tested on a number of mobile phones, tablets and laptops.
+It was at this point I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
 
-                This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-                Features
+##Sources
 
-                In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-                Existing Features
+###Images
+The hero image on the homepage depicts the real band "immortal" and was sourced from https://en.wikipedia.org/wiki/Immortal_(band)
+The album artwork was created using public domain images from the NASA website https://www.nasa.gov/multimedia/imagegallery/index.html
 
-                    Feature 1 - allows users X to achieve Y, by having them fill out Z
-                    ...
+###Text
 
-                For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The list of reasons to join the fanclub was copied from the Iron Maiden Official Website and minor alterations were made.
 
-                In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-                Features Left to Implement
+###Acknowledgements
 
-                    Another feature idea
+Research was conducted before the project was started to see how a band website should be laid out. 
+One in particular which I found visually appealing was the Kid Rock Website https://kidrock.com/
+The inspiration for the navbar was found here. 
 
-                Technologies Used
+Many of the band websites contained the social media links in the header of the page. With everything else I felt that this was too busy and decided to keep the social links contained in the footer.
 
-                In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-                    JQuery
-                        The project uses JQuery to simplify DOM manipulation.
-
-                Testing
-
-                In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-                Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-                For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-                    Contact form:
-                        Go to the "Contact Us" page
-                        Try to submit the empty form and verify that an error message about the required fields appears
-                        Try to submit the form with an invalid email address and verify that a relevant error message appears
-                        Try to submit the form with all inputs valid and verify that a success message appears.
-
-                In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-                You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-                If this section grows too long, you may want to split it off into a separate file and link to it from here.
-                Deployment
-
-                This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-                In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-                    Different values for environment variables (Heroku Config Vars)?
-                    Different configuration files?
-                    Separate git branch?
-
-                In addition, if it is not obvious, you should also describe how to run your code locally.
-                Credits
-                Content
-
-                    The text for section Y was copied from the Wikipedia article Z
-
-                Media
-
-                    The photos used in this site were obtained from ...
-
-                Acknowledgements
-
-                    I received inspiration for this project from X
 
