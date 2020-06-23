@@ -203,32 +203,30 @@ footer{
     border: 2px ridge #ff0000;
 }
 
-.newsfeed-container h2{
+.newsfeed-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+    position: relative;
+    text-align: center;
+}
+
+.newsfeed-container>h2{
     text-shadow: 2px 2px 2px #63c5c5c7;
     font-family: Anton, sans-serif;
     color: #2f2f2f;
 }
 
-.newsfeed-container p{
-    font-family: Metal Mania;
+.newsfeed-container>p{
+    font-family: Oswald, sans-serif;
     color: #000000;
 }
  
-.newsfeed-container{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #f2f2f2;
-    
-    position: relative;
-    text-align: center;
-}
-
 iframe{
     display: block;
     padding: 0 auto;
     max-width: 90%;
     margin: 0 auto;
-    border: 4px ridge #8f2f2f;
 }
 
 
@@ -239,32 +237,27 @@ iframe{
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    
     margin: 10%;
+    background-color: #d3d3d3;
+    border-bottom: #2f2f2f;
 }
-
 
 .event-list{
     margin-bottom: 5%;
-    
-  
 }
 
 .tour-link{
     background-color: #2f2f2f;
     border-radius: 0px 0px 36px 36px;
     border: 2px outset #007373;
-    
     font-family: Oswald, sans-serif;
     color: #f2f2f2;
-    
     width: 90%;
     margin: 5%;
     text-align: center;
 }
 
 .tour-link h4{
-    
     text-shadow: 0px 1px 0px  #000000;
     text-transform: uppercase;
     text-decoration: underline;
@@ -382,12 +375,6 @@ iframe{
     color: #bf2f2f
 }
 
-.modal-image{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border: 3px ridge #f2f2f2
-}
 
 .modal-header{
     padding: 0;
@@ -411,57 +398,3 @@ iframe{
     border: 2px outset #2f2f2f;
     padding: 2px;
 }
-
-/*-------------------------------------------------------sign-up*/
-
-.sign-up-image{
-    background-image: url('../images/sign-up.jpg');
-    background-size: cover;
-    height: 100vh;
-    
-  
- 
-}
-
-
-
-
-   
-  
-
-
-.sign-up-form{
-    position: absolute;
-    top: 23%;
-    left: 12%;
-    width: 76%;
-    text-align: center;
-    font-family: Metal Mania, sans-serif;
-    color: #af2f2f;
-    text-shadow: 2px 2px 1px #2f2f2f;
-}
-
-.sign-up-form h1{
-    margin: 2%;
-}
-
-.sign-up-form h2{
-    margin:40px auto;
-    padding: 2% 0;
-}
-
-.signup-form input{
-    margin: 20px auto;
-}
-
-.sign-up-form button{
-    color: #f2f2f2;
-    background-color: rgba(50, 50, 50, .8);
-    border-radius: 4px 36px;
-    border: 2px ridge #f2f2f2;
-    padding: 10px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
