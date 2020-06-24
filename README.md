@@ -16,11 +16,11 @@ This website is designed with two main users as the focus:
 1. The Fans
 2. The Potential Fans
 
--As a potential fan, I want to find out more about the band. I am directed to the website. 
+- As a potential fan, I want to find out more about the band. I am directed to the website. 
 ![Homepage](/assets/images/wireframes/homepage.png)
 Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
 
--Now that I am on the website I would like to see some of the band's material
+- Now that I am on the website I would like to see some of the band's material
 ![Mediapage](/assets/images/wireframes/mediapage.png)
 
 A media page will allow access to music/music videos from the band.
@@ -43,16 +43,27 @@ This wil be available in the footer section of the site
 ## Features
 
 - Feature 1
+
 The navbar exists across all pages, fixed to the top, it does not take up a large amount of space and provides the user with an obvious link to any page on the site.
-- Feature 2 
+
+- Feature 2
+
 The footer also exists on all pages if the user scrolls to the bottom. The footer provides the links to whichever social media platforms the band are present on.
+
 - Feature 3 
+
 The Homepage update section. Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
+
 - Feature 4 
+
 The Tour page occupies a bootstrap grid which will scale across all devices. This section allows the user to scroll through the upcoming concerts. If a concert div is clicked on, the user will be brought to the ticketmaster website in a new page.
+
 - Feature 5 
+
 The Media page allows users to listen to or watch the band's releases. Currently these exist as links to youtube which open in a new page, however these can also be embedded to keep the user on site.
+
 - Feature 6 
+
 The Fanclub. The fanclub page allows the user to gain access to the band's fanclub. When the members login button is clicked, a modal will appear allowing the user to input their email address and password. Currently this feature will redirect the user back to the homepage. In the future this could bring th user back to the homepage with the added features of being signed in.
 
 ## Future ideas
