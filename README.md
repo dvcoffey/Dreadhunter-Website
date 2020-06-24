@@ -1,21 +1,38 @@
 # The Dreadhunter Website
 
+This website exists as an online presence for the fictional heavy metal band 'Dreadhunter'
+Its primary purpose is to provide information about the band. 
+It contains features such as: 
+
+- Latest updates
+- Concert announcements 
+- Access to the media 
+- Access to the fanclub.
+
 
 ## UX
 
-Who this website is designed for.
--1 fans
--2 potential fans
+This website is designed with two main users as the focus:
+1. The Fans
+2. The Potential Fans
 
-Fans who want further ways to interact with the band can do so by joining the fanclub
-Fans can listen to the music, check for upcoming tour dates and check for new releases
-
-Potential fans are greeted with the homepage image and band logo to confirm they are in the right place. They can listen to the material and gain a feel for the bands presenece.
-Existing fans can check for new releases on the homepage, check for upcoming tour dates on the tour page, listen to the media and join the fanclub if they have not done so already.
+-As a potential fan, I want to find out more about the band. I am directed to the website. 
 ![Homepage](/assets/images/wireframes/homepage.png)
-![Tourpage](/assets/images/wireframes/tourpage.png)
+Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
+
+Now that I am on the website I would like to see some of the band's material
 ![Mediapage](/assets/images/wireframes/mediapage.png)
+A media page will allow access to music/music videos from the band.
+They can listen to the material and gain a feel for the bands presenece.
+
+
+- As an existiing fan, I want to find out when the next concert is. 
+![Tour](/assets/images/wireframes/tourpage.png)
+I will go to the website and check for upcoming tour dates near me.
+
+-As an existing fan might also want further ways to interact with the band and the fanbase.
 ![Fanclubpage](/assets/images/wireframes/fanclubpage.png)
+The fanclub page provides acces to the fanclub.
 
 ## Features
 
@@ -61,7 +78,7 @@ The album artwork was created using public domain images from the NASA website h
 
 The list of reasons to join the fanclub was copied from the Iron Maiden Official Website and minor alterations were made.
 
-## git add README.mdAcknowledgements
+## Acknowledgements
 
 Research was conducted before the project was started to see how a band website should be laid out. 
 One in particular which I found visually appealing was the Kid Rock Website https://kidrock.com/
