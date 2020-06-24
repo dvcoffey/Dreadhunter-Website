@@ -20,19 +20,25 @@ This website is designed with two main users as the focus:
 ![Homepage](/assets/images/wireframes/homepage.png)
 Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
 
-Now that I am on the website I would like to see some of the band's material
+-Now that I am on the website I would like to see some of the band's material
 ![Mediapage](/assets/images/wireframes/mediapage.png)
+
 A media page will allow access to music/music videos from the band.
 They can listen to the material and gain a feel for the bands presenece.
 
 
-- As an existiing fan, I want to find out when the next concert is. 
+- As an existiting fan, I want to find out when the next concert is. 
 ![Tour](/assets/images/wireframes/tourpage.png)
+
 I will go to the website and check for upcoming tour dates near me.
 
--As an existing fan might also want further ways to interact with the band and the fanbase.
+- As an existing fan might also want further ways to interact with the band and the fanbase.
 ![Fanclubpage](/assets/images/wireframes/fanclubpage.png)
+
 The fanclub page provides acces to the fanclub.
+
+- All users should also expect to find links to each social media platform the band is active on.
+This wil be available in the footer section of the site
 
 ## Features
 
@@ -57,22 +63,32 @@ The Fanclub. The fanclub page allows the user to gain access to the band's fancl
 ## Technologies used
 
 This site is constructed primarily in HTML and CSS. 
-Bootstrap 4 is utilized along with bootstrap CSS and JQuery
-Font awesome is used to provide the icons for the navbar button and the social media links.
+Bootstrap 4.5.0 is utilized along with bootstrap CSS and JQuery to simplify dom manipulation.
+https://getbootstrap.com/
+
+Font Awesome 4.7 is used to provide the icons for the navbar button and the social media links.
+https://fontawesome.com/v4.7.0/
+There are later versions of Font Awesome. But the social media and nav icons required for the project were available here.
+
 Google fonts is used to provide the Anton and Oswald fonts that are present across the site.
+https://fonts.google.com/
 
 ## Testing
 
 This site was tested on gitpod during the early stages of construction. The port was open in a separate window and as changes were made they were checked at different screen sizes using the element inspector in the browser. This was done in both chrome and firefox.
 Later on the site was deployed to Github pages which can be done in the settings section of the Github repsitory.
-At this stage the site was tested on a number of mobile phones, tablets and laptops.
-It was at this point I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
+At this stage the site was tested on mobile phones, tablets and laptops.
+I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
+
 
 ## Sources
 
 ### Images
-The hero image on the homepage depicts the real band "immortal" and was sourced from https://en.wikipedia.org/wiki/Immortal_(band)
-The album artwork was created using public domain images from the NASA website https://www.nasa.gov/multimedia/imagegallery/index.html
+- The hero image on the homepage depicts the real band "immortal" and was sourced from Wikipedia
+https://en.wikipedia.org/wiki/Immortal_(band)
+
+- The album artwork was created using public domain images from the NASA website 
+https://www.nasa.gov/multimedia/imagegallery/index.html
 
 ### Text
 
