@@ -66,6 +66,14 @@
     background-color: #d3d3d3;
 }
 
+.nav-link:hover{
+    color: #f2f2f2;
+    background-color: #2f2f2f;
+    text-shadow: 3px 3px #8f2f2f;
+    border: 2px inset #d3d3d3;
+    transition: ease-in-out .4s;
+}
+
 /*----------footer----------*/
 
 footer{
@@ -114,12 +122,18 @@ footer{
 
 .facebook a{
     color: rgb(59, 92, 192);
-    text-shadow: #f2f2f2;
+    text-shadow: 1px 1px #f2f2f2;
 }
 
 .twitter a{
     color: rgb(117, 197, 229);
-    text-shadow: 1px 1px  #f2f2f2;
+    text-shadow: 1px 1px #f2f2f2;
+}
+
+.social-link:hover{
+    color: #f2f2f2;
+    text-shadow: 3px 3px #8f2f2f;
+    transition: ease-in-out .4s;
 }
 
 /*----------General----------*/
@@ -230,6 +244,8 @@ video{
     margin-bottom: 0px;
 }
 
+
+
 /*----------Media----------*/
 
 .media-container{
@@ -237,6 +253,10 @@ video{
     max-width: 95%;
     margin: 2.5%;
     padding: 2.5%;
+}
+
+.media-link:hover{
+    text-decoration: none;
 }
 
 .media-container>h3,h4{
