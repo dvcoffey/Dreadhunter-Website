@@ -190,6 +190,7 @@ footer{
 .newsfeed-container>p{
     font-family: "Oswald", sans-serif;
     color: #000000;
+    font-size: 18px;
 }
  
 video{
@@ -249,7 +250,7 @@ video{
 /*----------Media----------*/
 
 .media-container{
-    background-color: #2f2f2f;
+    background-color: #f2f2f2;
     max-width: 95%;
     margin: 2.5%;
     padding: 2.5%;
@@ -259,16 +260,16 @@ video{
     text-decoration: none;
 }
 
-.media-container>h3,h4{
-    text-align: center;
+.media-link{
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
-    color: #f2f2f2;
+    color: #2f2f2f;
+   
 }
 
 .media-image{
     padding: auto;
-    background-color: #2f2f2f;
+    margin : auto;
     color: #f2f2f2;
     font-family: "Anton", sans-serif;
     text-align: center;
@@ -278,8 +279,7 @@ video{
     background-color: #f2f2f2;
     font-family: "Oswald", sans-serif;
     color: #2f2f2f;
-    text-align: left;
-    padding: 20px;
+    padding: 32px 16px;
 }
 
 /*----------Fanclub----------*/
