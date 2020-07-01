@@ -205,7 +205,7 @@ video{
     text-shadow: 2px 2px 2px #63c5c5c7;
     letter-spacing: 2px;
     text-align: center;
-    margin: 10%;
+    margin: 8%;
 }
 
 .event-list{
@@ -256,15 +256,18 @@ video{
     padding: 2.5%;
 }
 
-.media-link:hover{
-    text-decoration: none;
-}
 
 .media-link{
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
     color: #2f2f2f;
-   
+}
+
+.media-link:hover{
+    text-shadow: 3px 3px #8f2f2f;
+    text-decoration: none;
+    border: 2px inset #d3d3d3;
+    transition: ease-in-out .4s;
 }
 
 .media-image{
@@ -321,12 +324,17 @@ video{
 
 /*----------Modal----------*/
 
-.modal-header{
+
+.modal-title{
     font-family: "Anton", sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 .dismiss-btn{
-    font-size: 32px;
+    font-size: 40px;
+    
 }
 
 .modal-dialogue{
