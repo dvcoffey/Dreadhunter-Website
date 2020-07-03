@@ -136,7 +136,7 @@ footer{
     transition: ease-in-out .4s;
 }
 
-/*----------General----------*/
+/*----------general----------*/
 
 .nav-padding{
     min-height: 48px;
@@ -144,7 +144,7 @@ footer{
     padding: 0;
 }
 
-/*----------Home----------*/
+/*----------home----------*/
 
 .hero-container{
     max-width: 100%;
@@ -194,10 +194,11 @@ footer{
 }
  
 video{
+    width: 80%;
     background-color: #f2f2f2;
 }
 
-/*----------Tour----------*/
+/*----------tour----------*/
 
 .tour-heading{
     font-family: "Anton", sans-serif;
@@ -238,16 +239,20 @@ video{
 }
 
 .tour-link>p{
-    text-decoration: 1px underline;
+    text-decoration: underline;
     border: 2px outset #007373;
     border-radius: 36px;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
 
+.tour-link:hover{
+    transition: ease-in-out .4s;
+    color: white;
+    background-color: black;
+}
 
-
-/*----------Media----------*/
+/*----------media----------*/
 
 .media-container{
     background-color: #f2f2f2;
@@ -256,7 +261,6 @@ video{
     padding: 2.5%;
 }
 
-
 .media-link{
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
@@ -264,14 +268,14 @@ video{
 }
 
 .media-link:hover{
-    text-shadow: 3px 3px #8f2f2f;
+    text-shadow: 0px 2px #8f2f2f;
     text-decoration: none;
-    border: 2px inset #d3d3d3;
     transition: ease-in-out .4s;
+    color: black;
 }
 
 .media-image{
-    padding: auto;
+    
     margin : auto;
     color: #f2f2f2;
     font-family: "Anton", sans-serif;
@@ -285,7 +289,7 @@ video{
     padding: 32px 16px;
 }
 
-/*----------Fanclub----------*/
+/*----------fanclub----------*/
 
 .join-container{
     width: 66%;
@@ -309,6 +313,14 @@ video{
     background-color: #d3d3d3;
 }
 
+.join-container>button:hover{
+    color: #f2f2f2;
+    background-color: #2f2f2f;
+    text-shadow: 3px 3px #8f2f2f;
+    border: 2px inset #d3d3d3;
+    transition: ease-in-out .4s;
+}
+
 .reasons-to-join{
     font-family: "Oswald", sans-serif;
     color: #2f2f2f;
@@ -322,8 +334,7 @@ video{
     padding: 0;
 }
 
-/*----------Modal----------*/
-
+/*----------modal----------*/
 
 .modal-title{
     font-family: "Anton", sans-serif;
@@ -369,3 +380,10 @@ video{
     font-family: "Oswald", sans-serif;
 }
 
+.modal .btn:hover{
+    color: #f2f2f2;
+    background-color: #2f2f2f;
+    text-shadow: 3px 3px #8f2f2f;
+    border: 2px inset #d3d3d3;
+    transition: ease-in-out .4s;
+}
