@@ -71,6 +71,8 @@
     background-color: #2f2f2f;
     text-shadow: 3px 3px #8f2f2f;
     border: 2px inset #d3d3d3;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
 }
 
@@ -133,6 +135,8 @@ footer{
 .social-link:hover{
     color: #f2f2f2;
     text-shadow: 3px 3px #8f2f2f;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
 }
 
@@ -247,6 +251,8 @@ video{
 }
 
 .tour-link:hover{
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
     color: white;
     background-color: black;
@@ -270,6 +276,8 @@ video{
 .media-link:hover{
     text-shadow: 0px 2px #8f2f2f;
     text-decoration: none;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
     color: black;
 }
@@ -318,6 +326,8 @@ video{
     background-color: #2f2f2f;
     text-shadow: 3px 3px #8f2f2f;
     border: 2px inset #d3d3d3;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
 }
 
@@ -385,5 +395,7 @@ video{
     background-color: #2f2f2f;
     text-shadow: 3px 3px #8f2f2f;
     border: 2px inset #d3d3d3;
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
 }
