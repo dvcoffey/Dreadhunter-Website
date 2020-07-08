@@ -17,28 +17,56 @@ This website is designed with two main users as the focus:
 2. The Potential Fans
 
 - As a potential fan, I want to find out more about the band. I am directed to the website. 
-![Homepage](/assets/images/wireframes/homepage.png)
+
 Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
 
 - Now that I am on the website I would like to see some of the band's material
-![Mediapage](/assets/images/wireframes/mediapage.png)
+
 
 A media page will allow access to music/music videos from the band.
 They can listen to the material and gain a feel for the bands presenece.
 
 
 - As an existiting fan, I want to find out when the next concert is. 
-![Tour](/assets/images/wireframes/tourpage.png)
+
 
 I will go to the website and check for upcoming tour dates near me.
 
 - As an existing fan might also want further ways to interact with the band and the fanbase.
-![Fanclubpage](/assets/images/wireframes/fanclubpage.png)
+
 
 The fanclub page provides acces to the fanclub.
 
 - All users should also expect to find links to each social media platform the band is active on.
-This wil be available in the footer section of the site
+This will be available in the footer section of the site.
+
+## Strategy
+This site is primarily B2C focused, in this case the business is the band and the customer is the fan.
+The goal is to provide the user with an experience of the bands overall presence and firther ways to interact with the band and the community.
+This includes information about the band itself, information about upcoming shows, along with access to some of the bands material the fanclub.  
+
+## Scope
+New visitors and potential fans should be provided with enough information to determine if this is a band they like (or dislike).
+Fans can then use this site as a hub to access the fanclub, the various social media platforms that the band are present on and see the new songs/music videos that have been released. 
+
+## Structure
+The navigation bar will always be available across the site which will provide clear directions for which page the user wants to access.
+The brand is clearly visible in the Navbar so that the user knows they are in the right place
+The footer will be available at the bottom of every page which will provide acces to the band's Youtube, Facebook and Twitter profiles.
+The site consists of 4 pages:
+1. The Home page 
+2. The Tour page
+3. The Media page
+4. The Fanclub page
+
+## Skeleton
+The following skeleton was created using Balsamiq
+
+## Surface
+The color scheme mainly consists of red black and white, these colors are appropriate for the heavy metal theme.
+The presence of red was toned back significantly later on in development as it was distracting and made certain sections difficult to look at.
+It is still present however in the hover effects.
+All buttons have a consistent shape accross the site and are silver with black text.
 
 ## Features
 
