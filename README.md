@@ -9,6 +9,9 @@ It contains features such as:
 - Access to the media 
 - Access to the fanclub.
 
+A live demo of the website can be found here
+https://dvcoffey.github.io/Milestone-Project-1/
+
 
 ## UX
 
@@ -114,11 +117,13 @@ https://fonts.google.com/
 
 ## Testing
 
-This site was tested on gitpod during the early stages of construction. The port was open in a separate window and as changes were made they were checked at different screen sizes using the element inspector in the browser. This was done in both chrome and firefox.
-Later on the site was deployed to Github pages which can be done in the settings section of the Github repsitory.
+This site was tested on gitpod during the early stages of construction. As changes were made they were checked at different screen sizes using the element inspector in the browser. This was done in both chrome and firefox.
+Later on the site was deployed to Github pages.
 At this stage the site was tested on mobile phones, tablets and laptops.
 I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
-
+HTML was validated here https://validator.w3.org/
+CSS was validated here https://jigsaw.w3.org/css-validator/
+Vendor prefixes were added using https://autoprefixer.github.io/
 
 ## Sources
 
