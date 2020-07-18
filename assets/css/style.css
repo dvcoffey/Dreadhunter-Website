@@ -355,7 +355,6 @@ video{
 
 .dismiss-btn{
     font-size: 40px;
-    
 }
 
 .modal-dialogue{
@@ -399,3 +398,4 @@ video{
     -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
 }
+
