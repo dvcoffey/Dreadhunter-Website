@@ -118,8 +118,11 @@ footer{
 /*----------social links----------*/
 
 .youtube a{
-    color: rgb(212, 41, 41);
+    color: rgb(241, 29, 29);
     text-shadow: 0.4px .4px .9px  #f2f2f2;
+    background-color: white;
+    border-radius: 6px;
+    padding: 0 2px;
 }
 
 .facebook a{
@@ -133,6 +136,7 @@ footer{
 }
 
 .social-link:hover{
+    background-color: #2f2f2f;
     color: #f2f2f2;
     text-shadow: 3px 3px #8f2f2f;
     -webkit-transition: ease-in-out .4s;
@@ -236,9 +240,8 @@ video{
 }
 
 .tour-link>h5{
-    color: #007373;
-    text-shadow: 0px 1px 0px  #2f2f2f;
-    text-decoration: underline;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 0px  #007373;
     height: 18%;
 }
 
@@ -254,8 +257,9 @@ video{
     -webkit-transition: ease-in-out .4s;
     -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
-    color: white;
+    color: #00b4b4;
     background-color: black;
+    text-decoration: none;
 }
 
 /*----------media----------*/
@@ -283,7 +287,6 @@ video{
 }
 
 .media-image{
-    
     margin : auto;
     color: #f2f2f2;
     font-family: "Anton", sans-serif;
