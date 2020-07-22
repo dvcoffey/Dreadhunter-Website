@@ -2,7 +2,6 @@
 
 ![](assets/images/mockup.png)
 
-
 A live demo of the website can be found [here](https://dvcoffey.github.io/Milestone-Project-1/)
 
 This website exists as an online presence for the fictional heavy metal band 'Dreadhunter'
@@ -114,7 +113,7 @@ There are later versions of Font Awesome. But the social media and nav icons req
 Google fonts is used to provide the Anton and Oswald fonts that are present across the site.
 https://fonts.google.com/
 
-## Testing
+## Testing and Deployment
 
 This site was tested on gitpod during the early stages of construction. As changes were made they were checked at different screen sizes using the element inspector in the browser. This was done in both chrome and firefox.
 Later on the site was deployed to Github pages.
