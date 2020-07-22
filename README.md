@@ -19,6 +19,8 @@ This website is designed with two main users as the focus:
 1. The Fans
 2. The Potential Fans
 
+### User Stories
+
 #### As a potential fan, I want to find out more about the band. I am directed to the website. 
 
 Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
@@ -42,8 +44,8 @@ These will be available in the footer section of the site.
 
 ## Strategy
 This site is primarily B2C focused, in this case the business is the band and the customer is the fan.
-The goal is to provide the user with an experience of the bands overall presence and firther ways to interact with the band and the community.
-This includes information about the band itself, information about upcoming shows, along with access to some of the bands material the fanclub.  
+The goal is to provide the user with an experience of the bands overall presence and ways to interact with the band and the community.
+This includes information about the band itself, information about upcoming shows, along with access to some of the bands material as well as the fanclub.  
 
 ## Scope
 New visitors and potential fans should be provided with enough information to determine if this is a band they like (or dislike).
@@ -51,7 +53,7 @@ Fans can then use this site as a hub to access the fanclub, the various social m
 
 ## Structure
 The navigation bar will always be available across the site which will provide clear directions for which page the user wants to access.
-The brand is clearly visible in the Navbar so that the user knows they are in the right place
+The brand is clearly visible in the Navbar accompanied by the hero image on the homepage so that the user knows they are in the right place
 The footer will be available at the bottom of every page which will provide acces to the band's Youtube, Facebook and Twitter profiles.
 The site consists of 4 pages:
 1. The Home page 
@@ -80,11 +82,11 @@ The footer also exists on all pages if the user scrolls to the bottom. The foote
 
 #### Homepage
 
-This opens with band picture (hero image). Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
+This opens with a band picture (hero image). Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
 
 #### Tour Page
 
-The Tour page occupies a bootstrap grid which will scale across all devices. This section allows the user to scroll through the upcoming concerts. If a concert div is clicked on, the user will be brought to the ticketmaster website in a new page.
+The Tour page occupies a bootstrap grid which will scale across all devices. This section allows the user to scroll through the upcoming concerts. If a tour link is clicked on, the user will be brought to the ticketmaster website in a new page.
 
 #### Media Page 
 
@@ -118,6 +120,12 @@ This site was tested on gitpod during the early stages of construction. As chang
 Later on the site was deployed to Github pages.
 At this stage the site was tested on mobile phones, tablets and laptops.
 I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
+
+### Issues Encountered
+
+Footer behaviour was an issue for a large part of development. I wanted the footer to stay at the bottom of the page
+even if there was not enough content. At the same time I wanted the footer to be at the end of the content if there was
+more than the page would fit. A solution was found using bootstrap flexbox and setting the minimum height of the body to 100% of the view height.
 
 ### Code Validation
 
