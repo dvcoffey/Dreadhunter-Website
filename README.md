@@ -63,8 +63,7 @@ The site consists of 4 pages:
 4. The Fanclub page
 
 ## Skeleton
-The following skeleton was created using Balsamiq
-(https://dvcoffey.github.io/Milestone-Project-1/assets/dreadhunter-wireframe.pdf)
+The following skeleton was created using [Balsamiq](https://dvcoffey.github.io/Milestone-Project-1/assets/dreadhunter-wireframe.pdf)
 
 ## Surface
 The color scheme mainly consists of red black and white, these colors are appropriate for the heavy metal theme.
