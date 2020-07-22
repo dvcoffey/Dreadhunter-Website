@@ -1,5 +1,10 @@
 # The Dreadhunter Website
 
+![](assets/images/mockup.png)
+
+
+A live demo of the website can be found [here](https://dvcoffey.github.io/Milestone-Project-1/)
+
 This website exists as an online presence for the fictional heavy metal band 'Dreadhunter'
 Its primary purpose is to provide information about the band. 
 It contains features such as: 
@@ -8,10 +13,6 @@ It contains features such as:
 - Concert announcements 
 - Access to the media 
 - Access to the fanclub.
-
-A live demo of the website can be found here
-https://dvcoffey.github.io/Milestone-Project-1/
-
 
 ## UX
 
@@ -63,7 +64,7 @@ The site consists of 4 pages:
 
 ## Skeleton
 The following skeleton was created using Balsamiq
-assets/dreadhunter-wireframe.pdf
+(https://dvcoffey.github.io/Milestone-Project-1/assets/dreadhunter-wireframe.pdf)
 
 ## Surface
 The color scheme mainly consists of red black and white, these colors are appropriate for the heavy metal theme.
