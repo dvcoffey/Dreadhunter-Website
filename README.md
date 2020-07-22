@@ -19,29 +19,26 @@ This website is designed with two main users as the focus:
 1. The Fans
 2. The Potential Fans
 
-- As a potential fan, I want to find out more about the band. I am directed to the website. 
+#### As a potential fan, I want to find out more about the band. I am directed to the website. 
 
 Potential fans are greeted with the homepage image and band logo to confirm they are in the right place.
 
-- Now that I am on the website I would like to see some of the band's material
-
+#### Now that I am on the website I would like to see some of the band's material
 
 A media page will allow access to music/music videos from the band.
-They can listen to the material and gain a feel for the bands presenece.
+I can listen to the material and gain a feel for the bands presenece.
 
-
-- As an existiting fan, I want to find out when the next concert is. 
-
+#### As an existiting fan, I want to find out when the next concert is. 
 
 I will go to the website and check for upcoming tour dates near me.
 
-- As an existing fan might also want further ways to interact with the band and the fanbase.
-
+#### An existing fan might also want further ways to interact with the band and the fanbase.
 
 The fanclub page provides acces to the fanclub.
 
-- All users should also expect to find links to each social media platform the band is active on.
-This will be available in the footer section of the site.
+All users should also expect to find links to each social media platform the band is active on.
+These will be available in the footer section of the site.
+
 
 ## Strategy
 This site is primarily B2C focused, in this case the business is the band and the customer is the fan.
@@ -64,6 +61,7 @@ The site consists of 4 pages:
 
 ## Skeleton
 The following skeleton was created using Balsamiq
+assets/dreadhunter-wireframe.pdf
 
 ## Surface
 The color scheme mainly consists of red black and white, these colors are appropriate for the heavy metal theme.
@@ -73,27 +71,26 @@ All buttons have a consistent shape accross the site and are silver with black t
 
 ## Features
 
-- Feature 1
-
+#### Navbar
 The navbar exists across all pages, fixed to the top, it does not take up a large amount of space and provides the user with an obvious link to any page on the site.
 
-- Feature 2
+#### Footer
 
 The footer also exists on all pages if the user scrolls to the bottom. The footer provides the links to whichever social media platforms the band are present on.
 
-- Feature 3 
+#### Homepage
 
-The Homepage update section. Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
+This opens with band picture (hero image). Beneath the hero image and band history exists a container with the lateset updates from the band, in this case it is an embedded music video for the latest single.
 
-- Feature 4 
+#### Tour Page
 
 The Tour page occupies a bootstrap grid which will scale across all devices. This section allows the user to scroll through the upcoming concerts. If a concert div is clicked on, the user will be brought to the ticketmaster website in a new page.
 
-- Feature 5 
+#### Media Page 
 
 The Media page allows users to listen to or watch the band's releases. Currently these exist as links to youtube which open in a new page, however these can also be embedded to keep the user on site.
 
-- Feature 6 
+#### Fanclub 
 
 The Fanclub. The fanclub page allows the user to gain access to the band's fanclub. When the members login button is clicked, a modal will appear allowing the user to input their email address and password. Currently this feature will redirect the user back to the homepage. In the future this could bring th user back to the homepage with the added features of being signed in.
 
@@ -121,9 +118,17 @@ This site was tested on gitpod during the early stages of construction. As chang
 Later on the site was deployed to Github pages.
 At this stage the site was tested on mobile phones, tablets and laptops.
 I recognised that the navbar button and social media links were too small, while they looked okay on a larger screen and so they were enlarged from a font size of 24px to 32px.
-HTML was validated here https://validator.w3.org/
-CSS was validated here https://jigsaw.w3.org/css-validator/
-Vendor prefixes were added using https://autoprefixer.github.io/
+
+### Code Validation
+
+#### HTML 
+Validated at https://validator.w3.org/
+
+#### CSS
+Validated at https://jigsaw.w3.org/css-validator/
+
+#### Vendor Prefixes 
+Added using https://autoprefixer.github.io/
 
 ## Sources
 
