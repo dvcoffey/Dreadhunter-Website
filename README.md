@@ -2,7 +2,7 @@
 
 ![](assets/images/mockup.png)
 
-A live demo of the website can be found [here](https://dvcoffey.github.io/Milestone-Project-1/)
+A live demo of the website can be found [here](https://dvcoffey.github.io/Dreadhunter-Website//)
 
 This website exists as an online presence for the fictional heavy metal band 'Dreadhunter'
 Its primary purpose is to provide information about the band. 
